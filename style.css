@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #774936;
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #3C0000;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+    
+}
+
+header p {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+header nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #e8491d;
+}
+
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+.skills-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 45%;
+    background: #D69F7E;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(10, 10, 10, 0.1);
+}
+
+/* Projects Section */
+.projects-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 45%;
+    background: #D69F7E;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #3C0000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project .btn:hover {
+    background: black;
+}
+
+/* Contact Section */
+#contact .btn {
+    /* display: inline-block; */
+    margin: 500px;
+    padding: 100px 200px;
+    /* background: #35424a; */
+    /* color: #ffffff; */
+    /* text-decoration: none;
+    border-radius: 5px; */
+}
+
+#contact .btn:hover {
+    background: #e8491d;
+}
+
+/* Footer */
+footer {
+    background: #3C0000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
